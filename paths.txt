@@ -1,0 +1,2 @@
+Java scripts in :  Mobile App\BoneAge\app\src\main\java\com\example\sharon\boneage
+Resources in: Mobile App\BoneAge\app\src\main\res

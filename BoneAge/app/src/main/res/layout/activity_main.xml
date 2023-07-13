@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.00"
+        android:gravity="center"
+        android:background="@drawable/baby2"
+        android:orientation="vertical"
+        android:scaleType="centerCrop"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="7dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="0.41"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Skeletal Bone Age Assessments"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"/>
+
+        <Button
+            android:id="@+id/imageDatabase"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Add new Patient"
+            android:textSize="17dp"
+            android:layout_weight="0.07"/>
+
+        <Button
+            android:id="@+id/performBAA"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Perform BAA"
+            android:textSize="17dp"
+            android:layout_weight="0.04"/>
+
+
+    </LinearLayout>
+</LinearLayout>
